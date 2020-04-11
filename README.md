@@ -17,7 +17,7 @@ Subsequently, four functions needs to be specified by the user; these are shared
 
 For more details on these functions and how to exactly specify their input and output, please refer to the docstring. The work of applying any of the algorithms is in writing these functions.
 
-A few more parameters then follow and are easily specified. As our main comparison is the continuous-time algorithm of [Zanella](https://arxiv.org/pdf/1711.07424) which is most easily compared with the Tabu sampler, this algorithm can be activated simply by setting `SAW_bool=False`.  
+A few more parameters then follow and are easily specified. As our main comparison is the continuous-time algorithm of [Zanella](https://arxiv.org/pdf/1711.07424) which is most easily compared with the Tabu sampler, this algorithm can be activated simply by setting `SAW_bool=False` in the `tabu_sampler` function argument.  
 
 ## Examples
 All 7 examples presented in the paper are included above as [Jupyter notebooks](https://jupyter.org/). The 5 starting with *TABU* are all examples where the generator have order 2, while the two starting with *PDMP* are cases where the generators are of higher orders. As our goal was to present the broad versatility of the samplers via what, we hope, is a wide array of relevant discrete models, we highly recommend users to take a look at the example most relevant to them to see how they can implement their own algorithm. 
