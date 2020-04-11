@@ -2,7 +2,7 @@
 Implementation of the Tabu Sampler, discrete Coordinate Sampler and discrete Zig-Zag Sampler; three MCMC samplers introduced in [Accelerated Sampling on Discrete Spaces with Non-Reversible Markov Processes](https://arxiv.org/abs/1912.04681) by Sam Power and myself. 
 
 ## Use of the algorithms
-To apply any of the algorithms to your own statistical model, you will need to load the corresponding *algoname_class.py* file. The resulting sampler is a function denoted *algoname_sampler*. 
+To apply any of the algorithms to your own statistical model, you will need to load the corresponding *algoname_class.py* file. The resulting sampler is a function denoted `algoname_sampler`. 
 In the associated docstring of each function, a short description of each argument is presented to clarify what you need to specify. Furthermore, each sampler is judiciously commented nearly line for line, so better understanding of the algorithms can be achieved just by going through the code. Of course, our implementation is just one possible solution, and we in no way claim that it is optimal. If you have any suggestions in how to improve the code, please reach out. 
 
 ### Implementing a model
